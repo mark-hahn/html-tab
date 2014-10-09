@@ -1,0 +1,14 @@
+{
+  "name": "html-tab",
+  "main": "./lib/html-tab",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationEvents": ["html-tab:open"],
+  "repository": "https://github.com/mark-hahn/html-tab",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

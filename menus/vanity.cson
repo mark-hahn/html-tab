@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable html-tab': 'html-tab:open'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'html-tab'
+      'submenu': [
+        { 'label': 'open', 'command': 'html-tab:open' }
+      ]
+    ]
+  }
+]
