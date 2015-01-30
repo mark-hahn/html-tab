@@ -1,7 +1,7 @@
 
 # lib/html-tab-view
 
-{View} = require 'atom'
+{View} = require 'atom-space-pen-views'
 
 module.exports =
 class HtmlTabView extends View

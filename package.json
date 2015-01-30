@@ -1,15 +1,15 @@
 {
   "name": "html-tab",
   "main": "./lib/main",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Example package to open any HTML in a tab.",
   "activationEvents": ["html-tab:open"],
   "repository": "https://github.com/mark-hahn/html-tab",
   "license": "MIT",
   "engines": {
-    "atom": ">0.120.0"
+    "atom": ">0.170.0"
   },
   "dependencies": {
-    "emissary": "^1.3.1"
+    "atom-space-pen-views": "^2.0.3"
   }
 }
