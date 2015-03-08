@@ -1,4 +1,4 @@
 
-'.workspace':
+'atom-workspace atom-text-editor':
   'ctrl-alt-h': 'html-tab:open'
 
