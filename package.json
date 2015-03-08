@@ -1,7 +1,7 @@
 {
   "name": "html-tab",
   "main": "./lib/main",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Example package to open any HTML in a tab.",
   "activationEvents": ["html-tab:open"],
   "repository": "https://github.com/mark-hahn/html-tab",
@@ -10,6 +10,7 @@
     "atom": ">0.170.0"
   },
   "dependencies": {
-    "atom-space-pen-views": "^2.0.3"
+    "atom-space-pen-views": "^2.0.3",
+    "sub-atom": "1.0.x"
   }
 }

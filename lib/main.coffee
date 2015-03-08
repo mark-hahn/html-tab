@@ -2,11 +2,11 @@
 # lib/main
 
 HtmlTab = require './html-tab'
-{CompositeDisposable} = require 'atom'
+SubAtom = require 'sub-atom'
 
 module.exports =
   activate: -> 
-    @subs = new CompositeDisposable
+    @subs = new SubAtom
     @subs.add atom.commands.add 'atom-workspace', 'html-tab:open': ->
       atom.workspace.getActivePane().activateItem new HtmlTab "I'm Alive!"
 
