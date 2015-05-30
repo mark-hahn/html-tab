@@ -1,9 +1,11 @@
 {
   "name": "html-tab",
   "main": "./lib/main",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Example package to open any HTML in a tab.",
-  "activationEvents": ["html-tab:open"],
+  "activationCommands": {
+    "atom-workspace": ["html-tab:open"]
+  },
   "repository": "https://github.com/mark-hahn/html-tab",
   "license": "MIT",
   "engines": {
